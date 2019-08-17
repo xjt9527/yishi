@@ -48,7 +48,7 @@ export default {
             location.href = "/ticket/"
         },
         backPage() {
-            window.history.back()
+            this.$router.push({name:'firstPage'})
         },
     },
 }

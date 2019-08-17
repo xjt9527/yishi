@@ -8,7 +8,7 @@
         <van-swipe
           :loop="false"
           :show-indicators="false"
-          :width="320"
+          :width="360"
           :height="600"
           indicator-color="white"
           @change="onChange"
@@ -77,47 +77,58 @@ export default {
         {
           title:'大雪满刀弓',
           class:'第136章 大雪坪论刀道',
-          dis:'刀光剑影 爱恨情仇 这个江湖 终究是精彩绝终究是精彩绝伦伦',
+          dis:'刀光剑影 爱恨情仇 这个江湖 终究是精彩绝终究是精彩绝伦伦...',
           author:'聋戈',
           count:'2233',
-          discuss:'222',
+          discuss:'282',
           imgs:require('../../assets/image/detail/bg1.png'),
           tag:'仙侠',
           start:3
 
         },
         {
-          title:'大雪满刀弓',
-          class:'第136章 大雪坪论刀道',
-          dis:'刀光剑影 爱恨情仇 这个江湖 终究是精彩绝终究是精彩绝伦伦',
-          author:'聋戈',
-          count:'2233',
-          discuss:'222',
-          imgs:require('../../assets/image/detail/g3.png'),
-          tag:'仙侠',
+          title:'圣女贞德',
+          class:'第1章 起源',
+          dis:'女贞德于1430年在贡比涅一次小冲突中为勃艮第公国所俘，不久为英格兰人以重金购去...',
+          author:'瓦西里',
+          count:'3099',
+          discuss:'129',
+          imgs:require('../../assets/image/detail/g7.png'),
+          tag:'历史',
           start:2
 
         },
         {
-          title:'大雪满刀弓',
-          class:'第136章 大雪坪论刀道',
-          dis:'刀光剑影 爱恨情仇 这个江湖 终究是精彩绝终究是精彩绝伦伦',
-          author:'聋戈',
-          count:'2233',
-          discuss:'222',
+          title:'遮天',
+          class:'第6章 封禅之地',
+          dis:'冰冷与黑暗并存的宇宙深处，九具庞大的龙尸拉着一口青铜古棺，亘古长存。',
+          author:'辰东',
+          count:'907',
+          discuss:'104',
           imgs:require('../../assets/image/detail/g4.png'),
           tag:'仙侠',
           start:3
         },
         {
-          title:'大雪满刀弓',
-          class:'第136章 大雪坪论刀道',
-          dis:'刀光剑影 爱恨情仇 这个江湖 终究是精彩绝终究是精彩绝伦伦',
-          author:'聋戈',
-          count:'2233',
-          discuss:'222',
-          imgs:require('../../assets/image/detail/g5.png'),
-          tag:'仙侠',
+          title:'王者之剑',
+          class:'第276章 曙光',
+          dis:'超自然的邪恶势力侵占了柯南所在的部落，柯南的父亲和族人惨遭杀害。幸存下来的柯南穿越西伯利亚冰原寻找盟友的帮助',
+          author:'马库斯·尼斯佩尔',
+          count:'3678',
+          discuss:'229',
+          imgs:require('../../assets/image/detail/g8.png'),
+          tag:'传记',
+          start:3
+        },
+        {
+          title:'沼泽怪物',
+          class:'第24章 对峙与选择',
+          dis:'据传，在丛林深处，有一种半人半鳄鱼的生物，它的身世是一个哀伤、残忍的故事。',
+          author:'麦卡德',
+          count:'1566',
+          discuss:'751',
+          imgs:require('../../assets/image/detail/g10.png'),
+          tag:'科幻',
           start:3
         },
 
@@ -185,6 +196,7 @@ this.$router.go(-1)
   // background: gray;
   transform-style: preserve-3d;
   transform: rotateY(-10deg);
+  opacity: 0.9;
   width: 200px;
   transition: all 1s;
   .back{
@@ -202,9 +214,9 @@ this.$router.go(-1)
     border-radius: 12px;
     // height: 600px;
     background: #fff;
-    width: 300px;
+    width: 320px;
     margin: 0 auto;
-    box-shadow:  5px 5px 5px rgba(190, 189, 189, 0.3);
+    box-shadow:  2px 2px 5px rgba(190, 189, 189, 0.3);
   }
   .book-one {
     .up {
