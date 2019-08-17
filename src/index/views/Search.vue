@@ -8,9 +8,9 @@
         <van-swipe
           :loop="false"
           :show-indicators="false"
-          :width="360"
+          
           :height="600"
-          indicator-color="white"
+          
           @change="onChange"
         >
           <van-swipe-item v-for="(item,i) in list" :key="i" class="swipeBox">
@@ -166,7 +166,7 @@ this.$router.go(-1)
 <style lang="less">
 .search-page {
   .van-swipe__track {
-    margin-top: 40px;
+    // margin-top: 40px;
   }
 }
 </style>
@@ -182,7 +182,7 @@ this.$router.go(-1)
 //   transform: rotateY(30deg);
 // }
 .test-box {
-  height: 500px;
+  // height: 500px;
   // background: gold;
 }
 .swipeBox {
@@ -190,18 +190,18 @@ this.$router.go(-1)
 }
 .sw-w {
   // width: 300px;
-  margin-left: 10px;
+  // margin-left: 10px;
 }
 .red {
   // background: gray;
-  transform-style: preserve-3d;
-  transform: rotateY(-10deg);
-  opacity: 0.9;
-  width: 200px;
-  transition: all 1s;
-  .back{
-    display: none;
-  }
+  // transform-style: preserve-3d;
+  // transform: rotateY(-10deg);
+  // opacity: 0.9;
+  // width: 200px;
+  // transition: all 1s;
+  // .back{
+  //   display: none;
+  // }
 }
 .search-page {
   min-height: 100vh;
