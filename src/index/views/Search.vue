@@ -7,10 +7,8 @@
       <v-touch v-on:swipestart='swipestart' v-on:swipeleft="leftChangeImg" height="500px" v-on:swiperight="leftChangeImg2">
         <van-swipe
           :loop="false"
-          :show-indicators="false"
-          
           :height="600"
-          
+          indicator-color="white"
           @change="onChange"
         >
           <van-swipe-item v-for="(item,i) in list" :key="i" class="swipeBox">
@@ -112,7 +110,7 @@ export default {
         {
           title:'王者之剑',
           class:'第276章 曙光',
-          dis:'超自然的邪恶势力侵占了柯南所在的部落，柯南的父亲和族人惨遭杀害。幸存下来的柯南穿越西伯利亚冰原寻找盟友的帮助',
+          dis:'超自然的邪恶势力侵占了柯南所在的部落，柯南的父亲和族人惨遭杀害。',
           author:'马库斯·尼斯佩尔',
           count:'3678',
           discuss:'229',
@@ -165,8 +163,8 @@ this.$router.go(-1)
 </script>
 <style lang="less">
 .search-page {
-  .van-swipe__track {
-    // margin-top: 40px;
+  .van-swipe__indicators {
+    bottom: 50%;
   }
 }
 </style>
@@ -216,7 +214,7 @@ this.$router.go(-1)
     background: #fff;
     width: 320px;
     margin: 0 auto;
-    box-shadow:  2px 2px 5px rgba(190, 189, 189, 0.3);
+    box-shadow:  5px 5px 5px rgba(190, 189, 189, 0.3);
   }
   .book-one {
     .up {
