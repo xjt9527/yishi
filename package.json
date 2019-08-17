@@ -1,0 +1,46 @@
+{
+  "name": "multipage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "development": "vue-cli-service build --mode development",
+    "preview": "vue-cli-service build --mode preview",
+    "production": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "axios": "^0.18.1",
+    "js-cookie": "^2.2.0",
+    "lib-flexible": "^0.3.2",
+    "mint-ui": "^2.2.13",
+    "mui": "0.0.1",
+    "postcss": "^7.0.14",
+    "postcss-px2rem-exclude": "0.0.6",
+    "q": "^1.5.1",
+    "vant": "^1.6.24",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.4",
+    "vue-router": "^3.0.1",
+    "vue-skeleton-webpack-plugin": "^1.2.2",
+    "vue-touch": "^2.0.0-beta.4",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
+    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
+    "@vue/cli-service": "^3.0.0-beta.15",
+    "autoprefixer": "^9.5.1",
+    "babel-plugin-import": "^1.11.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

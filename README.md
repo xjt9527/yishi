@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# 异视
+# 
 
-You can use the [editor on GitHub](https://github.com/xjt9527/yishi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### 介绍
+异视
+ 
+#### 软件架构
+软件架构说明 
+vue-cli3.0
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+#### 安装教程
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+启动项目
+npm i
+npm run serve
 
-```markdown
-Syntax highlighted code block
+打包
 
-# Header 1
-## Header 2
-### Header 3
+npm run build --env=development
 
-- Bulleted
-- List
+    "development": "vue-cli-service build --mode development",
+    "preview": "vue-cli-service build --mode preview",
+    "production": "vue-cli-service build --mode production",
 
-1. Numbered
-2. List
+#### 使用说明
 
-**Bold** and _Italic_ and `Code` text
+1. xxxx
+2. xxxx
+3. xxxx
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xjt9527/yishi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
