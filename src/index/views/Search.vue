@@ -45,7 +45,7 @@
                       </div>
                     </div>
                     <div class="back btn-click" @click="back()"></div>
-                    <div class="start-read btn-click" @click="startRead(i)">开始阅读</div>
+                    <div class="start-read btn-click" @click="startRead(i)">查看详情</div>
 
                     <img class="white" src="../../assets/image/img_radius_white.png" alt="white" />
                   </div>
