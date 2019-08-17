@@ -20,7 +20,7 @@
 export default {
     methods: {
         toDetail() {
-            location.href = "/ticket/"
+            this.$router.push({name:'detailPage'})
         }
     }
 }
