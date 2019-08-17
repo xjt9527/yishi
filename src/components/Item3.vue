@@ -12,10 +12,19 @@
             <div class="star"></div>
             <div class="star"></div>
         </div>
-        <button class="btn">开始阅读</button>
+        <button class="btn" @click="toDetail">开始阅读</button>
         <div class="cover-img-active"></div>
     </div>
 </template>
+<script>
+export default {
+    methods: {
+        toDetail() {
+            location.href = "/ticket/"
+        }
+    }
+}
+</script>
 <style lang="less" scoped>
 .item-box {
     height: 284px;

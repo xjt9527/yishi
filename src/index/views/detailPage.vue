@@ -19,7 +19,7 @@
                 <div class="person"><span class="data">1422</span> 在看</div>
                 <div class="comment"><span class="data">1422</span> 评论</div>
             </div>
-            <div class="start-read btn-click">开始阅读</div>
+            <div class="start-read btn-click" @click="goDetail(1)">开始阅读</div>
             <ul class="contents-list">
                 <li class="first-item">章节目录</li>
                 <li class="list-item" v-for="(item, index) in items" :key="index" @click="goDetail(index)">
@@ -45,11 +45,11 @@ export default {
     },
     methods: {
         goDetail() {
-
+            location.href = "/ticket/"
         },
         backPage() {
             window.history.back()
-        }
+        },
     },
 }
 </script>
