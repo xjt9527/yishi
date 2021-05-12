@@ -17,7 +17,7 @@
     "lib-flexible": "^0.3.2",
     "mint-ui": "^2.2.13",
     "mui": "0.0.1",
-    "postcss": "^7.0.14",
+    "postcss": "^8.2.10",
     "postcss-px2rem-exclude": "0.0.6",
     "q": "^1.5.1",
     "vant": "^1.6.24",
